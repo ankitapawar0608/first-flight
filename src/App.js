@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+function App()
+{
+  return(
+    <>
+    <h1>Personal Information:</h1>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <p>I am Ankita Pawar.</p>
+    <p> I am currently pursuing my final year Bachelor of Engineering from Tulsiramji Gaikwad-Patil College of Engineering & Technology in IT branch.</p>
+
+    <h1>Education:</h1>
+
+    <p>
+    Bachelor of Engineering in IT branch from TGPCET.</p> <p>12th HSC from St Paul's English Medium Junior College.</p>  <p>10th SSC from St Paul's English Medium High School.
+    </p>
+
+    <h1>
+      Skills:
+    </h1>
+
+<p>HTML</p>
+
+<p>CSS</p>
+
+<p>JavaSrcipt</p>
+<p>C Programming</p>
+<p>MSCIT</p>
+<p>BootStrap</p>
+
+
+
+    </>
+  )
 }
 
 export default App;
